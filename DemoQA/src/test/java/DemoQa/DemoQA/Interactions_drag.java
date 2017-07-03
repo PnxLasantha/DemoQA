@@ -46,6 +46,17 @@ public class Interactions_drag {
 		
 	}
 	
+	@Test(description = "Drag-Drop",priority=7)
+	public void drag_drop()
+	{
+
+		interaction drag = new interaction();
+		drag.drag_drop();
+		HomePage hm = new HomePage();
+		hm.goBack();
+		
+	}
+	
 	@AfterMethod
 	public void getResult(ITestResult result,Method method) throws IOException 
 	{

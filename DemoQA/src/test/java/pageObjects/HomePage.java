@@ -1,6 +1,7 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -52,4 +53,9 @@ public class HomePage {
 		driver.findElement(Drop_page).click();
 	}
 	
+	public void goBack()
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;  
+		js.executeScript("window.history.go(-1)");
+	}
 }

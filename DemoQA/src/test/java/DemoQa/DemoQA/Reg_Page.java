@@ -50,18 +50,11 @@ public class Reg_Page {
 		reg.setPasswords();
 		reg.submitbutton();
 		
-		
+		HomePage hm = new HomePage();
+		hm.goBack();
 	}
 	
-	@Test(description = "Swtiching Back to reg page", priority=5)
-	public void SwitchingBack()
-	{
-		
-		RegistrationPage reg = new RegistrationPage();
-		reg.switchingBack();
-		
-		
-	}
+	
 
 	
 	@AfterMethod
