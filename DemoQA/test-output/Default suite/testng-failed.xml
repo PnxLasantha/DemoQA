@@ -5,9 +5,10 @@
     <classes>
       <class name="DemoQa.DemoQA.Reg_Page">
         <methods>
-          <include name="Registration"/>
+          <include name="Registration_1"/>
+          <include name="Registration_2"/>
           <include name="endreport"/>
-          <include name="setupdriver"/>
+          <include name="beforeMethod"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- DemoQa.DemoQA.Reg_Page -->

@@ -3,66 +3,48 @@ package DemoQa.DemoQA;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
+import org.openqa.selenium.By;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
-import Utilities.Cons;
 import Utilities.GetScreenshot;
 import pageObjects.HomePage;
-import pageObjects.RegistrationPage;
+import pageObjects.interaction;
 
+public class Interactions_drag {
 
-public class Reg_Page {
+	@BeforeClass
+	public void swtchingtoclass()
+	{
+		HomePage.driver.findElement(By.id("menu-item-140")).click();
+		
+	}
 
-	  	
-	
 	@BeforeMethod
 	public void beforeMethod(Method method) {
 	    Test annotation_test = method.getAnnotation(Test.class);	    
 	    String temp_message =("Starting " + annotation_test.description());
-	    HomePage.test.assignCategory("Smoke Test");
 	    HomePage.test = HomePage.extent.startTest(annotation_test.description());
 	    HomePage.test.log(LogStatus.INFO, temp_message);
-	    
+	    HomePage.test.assignCategory("Functional Test");
 	}
 	
-
 	
 	
-	@Test(description = "Customer Registration",priority=4)
-	public void Registration()
+	@Test(description = "Defaul Drag option",priority=6)
+	public void dragelement()
 	{
-		
-		
-		RegistrationPage reg = new RegistrationPage();
-		reg.SetNames();
-		reg.setMstatus();
-		reg.setHobby();
-		reg.setCountry();
-		reg.setDateOfBirth();
-		reg.setPhone();
-		reg.setUserName();
-		reg.setEmail();
-		reg.setprofPic();
-		reg.setDescription();
-		reg.setPasswords();
-		reg.submitbutton();
-		
+		interaction drag = new interaction();
+		drag.default_functionality();
 		
 	}
-	
-	@Test(description = "Swtiching Back to reg page", priority=5)
-	public void SwitchingBack()
-	{
-		
-		RegistrationPage reg = new RegistrationPage();
-		reg.switchingBack();
-		
-		
-	}
-
 	
 	@AfterMethod
 	public void getResult(ITestResult result,Method method) throws IOException 
@@ -84,17 +66,22 @@ public class Reg_Page {
 		HomePage.extent.endTest(HomePage.test);
 	}
 	
+	@AfterClass
+	public void swtchingback()
+	{
+		
+		
+	}
+	
+	@AfterTest
+    public void endreport()
+    {
+	 System.out.println("INSIDE Interacation page.java");
+	/* HomePage.driver.close();*/
+	 HomePage.extent.flush();
+	 HomePage.extent.close();
+        
+    }
 	
 	
-	 @AfterTest
-	    public void endreport()
-	    {
-		 System.out.println("INSIDE Reg_Page.java");
-		/* HomePage.driver.close();*/
-		 /*HomePage.extent.flush();*/
-		// HomePage.extent.close();
-	        
-	    }
-	
-
 }

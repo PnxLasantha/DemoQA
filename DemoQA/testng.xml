@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMOQA by Lasantha">
+  <test name="Home Page">
+    <classes>
+      <class name="DemoQa.DemoQA.HomePageTest"/>
+      <class name="DemoQa.DemoQA.Reg_Page"/>
+      <class name="DemoQa.DemoQA.Interactions_drag"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+ 
+</suite> <!-- Suite -->

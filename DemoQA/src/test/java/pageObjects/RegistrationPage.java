@@ -9,6 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.relevantcodes.extentreports.LogStatus;
+
+import Utilities.Cons;
+
 
 public class RegistrationPage {
 	
@@ -58,7 +62,7 @@ public class RegistrationPage {
 	{
 		driver.findElement(First_name).sendKeys("FirstName");
 		driver.findElement(Last_name).sendKeys("LastName ");
-		
+		HomePage.test.log(LogStatus.INFO, "Names Done");
 	}
 	
 	public void setMstatus()
@@ -66,13 +70,14 @@ public class RegistrationPage {
 		
 		List<WebElement> M_statusRadio = driver.findElements(Martial_status);
 		M_statusRadio.get(0).click();
+		HomePage.test.log(LogStatus.INFO, "Martial status Done");
 	}
 	
 	public void setHobby()
 	{
 		List<WebElement> R_hobby = driver.findElements(Hobby);
 		R_hobby.get(0).click();
-		
+		HomePage.test.log(LogStatus.INFO, "Hobby Done");
 		
 	}
 	
@@ -80,7 +85,7 @@ public class RegistrationPage {
 	{
 		Select Country_dropdown = new Select(driver.findElement(Country));
 		Country_dropdown.selectByVisibleText("Armenia");
-		
+		HomePage.test.log(LogStatus.INFO, "Country Done");
 	}
 	
 	public void setDateOfBirth()
@@ -93,49 +98,57 @@ public class RegistrationPage {
 		
 		Select Year_dropdown = new Select(driver.findElement(Year_DOB));
 		Year_dropdown.selectByVisibleText("1991");
-		
+		HomePage.test.log(LogStatus.INFO, "DOB Done");
 		
 	}
 	
 	public void setPhone()
 	{
 		driver.findElement(Phone_Number).sendKeys("0745236985");
-		
+		HomePage.test.log(LogStatus.INFO, "Phone Done");
 	}
 	
 	public void setUserName()
 	{
-		driver.findElement(UserName).sendKeys("Username002");
-		
+		driver.findElement(UserName).sendKeys("DEMOQAUSER");
+		HomePage.test.log(LogStatus.INFO, "UserName Done");
 	}
 	
 	public void setEmail()
 	{
 		driver.findElement(E_mail).sendKeys("aa@aa.aa");
-		
+		HomePage.test.log(LogStatus.INFO, "E_mail  Done");
 	}
 	
 	public void setprofPic()
 	{
 		
 		driver.findElement(Prof_pic).sendKeys("E:/Lasantha/Auto/WS/DemoQA/src/test/Resources/100442.jpg");
+		HomePage.test.log(LogStatus.INFO, "Profile Pic Done");
 	}
 	
 	public void setDescription()
 	{
 		
 		driver.findElement(dese).sendKeys("The Details");
+		HomePage.test.log(LogStatus.INFO, "Details Done");
 	}
 	
 	public void setPasswords()
 	{
 		driver.findElement(Password).sendKeys("ib1234567");
 		driver.findElement(Com_Password).sendKeys("ib1234567");
+		HomePage.test.log(LogStatus.INFO, "Passwords Done");
 	}
 	
 	public void submitbutton()
 	{
 		driver.findElement(submit).click();
 		
+	}
+	
+	public void switchingBack()
+	{
+		driver.get(Cons.url);
 	}
 }

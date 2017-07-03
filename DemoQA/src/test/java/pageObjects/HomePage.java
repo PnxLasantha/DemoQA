@@ -15,6 +15,11 @@ public class HomePage {
 	
 	
 	By Reg_page = By.id("menu-item-374");
+	By Drag_page = By.id("menu-item-140");
+	By Drop_page = By.id("menu-item-141");
+	By tab_2 = By.xpath("//*[@id='tab_ul']/li[2]");
+	By tab_2_text = By.xpath("//*[@id='tabs-2']/p[2]");
+	
 	
 	
 	
@@ -25,6 +30,26 @@ public class HomePage {
 		
 		driver.findElement(Reg_page).click();
 		
+	}
+	
+	public void switch_tabs()
+	{
+		
+		driver.findElement(tab_2).click();
+		String s =driver.findElement(By.xpath("//*[@id='tabs-2']/p[2]")).getText();
+		System.out.println(s);
+	
+	}
+	
+	public void DragPage()
+	{
+		
+		driver.findElement(Drag_page).click();
+	}
+	
+	public void DropPage()
+	{
+		driver.findElement(Drop_page).click();
 	}
 	
 }

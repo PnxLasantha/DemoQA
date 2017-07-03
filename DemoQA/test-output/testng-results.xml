@@ -1,48 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14215" started-at="2017-06-26T11:09:35Z" finished-at="2017-06-26T11:09:49Z">
+  <suite name="DEMOQA by Lasantha" duration-ms="23562" started-at="2017-06-29T14:49:30Z" finished-at="2017-06-29T14:49:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14215" started-at="2017-06-26T11:09:35Z" finished-at="2017-06-26T11:09:49Z">
-      <class name="DemoQa.DemoQA.Reg_Page">
-        <test-method status="PASS" signature="setupdriver()[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="setupdriver" is-config="true" duration-ms="8937" started-at="2017-06-26T16:39:35Z" description="Starting the Browser and Reports" finished-at="2017-06-26T16:39:43Z">
+    <test name="Home Page" duration-ms="23562" started-at="2017-06-29T14:49:30Z" finished-at="2017-06-29T14:49:54Z">
+      <class name="DemoQa.DemoQA.HomePageTest">
+        <test-method status="PASS" signature="setupdriver()[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="setupdriver" is-config="true" duration-ms="16911" started-at="2017-06-29T20:19:30Z" description="Starting the Browser and Reports" finished-at="2017-06-29T20:19:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupdriver -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-06-26T16:39:43Z" finished-at="2017-06-26T16:39:43Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-06-29T20:19:47Z" finished-at="2017-06-29T20:19:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void DemoQa.DemoQA.Reg_Page.Homepg()]]>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Homepg()[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="Homepg" duration-ms="1223" started-at="2017-06-26T16:39:43Z" description="Clicking the Registration Page" finished-at="2017-06-26T16:39:45Z">
+        <test-method status="PASS" signature="switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="switch_tabs" duration-ms="177" started-at="2017-06-29T20:19:47Z" description="Switching Tabs 1 to 5" finished-at="2017-06-29T20:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_tabs -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="getResult" is-config="true" duration-ms="2" started-at="2017-06-29T20:19:47Z" finished-at="2017-06-29T20:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switch_tabs status=SUCCESS method=HomePageTest.switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="Homepg" duration-ms="1000" started-at="2017-06-29T20:19:47Z" description="Clicking the Registration Page" finished-at="2017-06-29T20:19:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepg -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="getResult" is-config="true" duration-ms="0" started-at="2017-06-26T16:39:45Z" finished-at="2017-06-26T16:39:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:47Z" finished-at="2017-06-29T20:19:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Homepg status=SUCCESS method=Reg_Page.Homepg()[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2] output={null}]]]>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="getResult" is-config="true" duration-ms="1" started-at="2017-06-29T20:19:48Z" finished-at="2017-06-29T20:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Homepg status=SUCCESS method=HomePageTest.Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@5622fdf] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void DemoQa.DemoQA.Reg_Page.Homepg()]]>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-26T16:39:45Z" finished-at="2017-06-26T16:39:45Z">
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.HomePageTest@5622fdf]" name="endreport" is-config="true" duration-ms="1" started-at="2017-06-29T20:19:53Z" finished-at="2017-06-29T20:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19]" name="endreport" is-config="true" duration-ms="265" started-at="2017-06-29T20:19:53Z" finished-at="2017-06-29T20:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="endreport" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:54Z" finished-at="2017-06-29T20:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- DemoQa.DemoQA.HomePageTest -->
+      <class name="DemoQa.DemoQA.Reg_Page">
+        <test-method status="PASS" signature="Registration()[pri:4, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="Registration" duration-ms="3047" started-at="2017-06-29T20:19:48Z" description="Customer Registration" finished-at="2017-06-29T20:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:48Z" finished-at="2017-06-29T20:19:48Z">
           <params>
             <param index="0">
               <value>
@@ -53,15 +102,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Registration()[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="Registration" duration-ms="3808" started-at="2017-06-26T16:39:45Z" description="Customer Registration" finished-at="2017-06-26T16:39:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="getResult" is-config="true" duration-ms="0" started-at="2017-06-26T16:39:49Z" finished-at="2017-06-26T16:39:49Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="getResult" is-config="true" duration-ms="1" started-at="2017-06-29T20:19:51Z" finished-at="2017-06-29T20:19:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Registration status=SUCCESS method=Reg_Page.Registration()[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2] output={null}]]]>
+                <![CDATA[[TestResult name=Registration status=SUCCESS method=Reg_Page.Registration()[pri:4, instance:DemoQa.DemoQA.Reg_Page@4883b407] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -73,11 +118,79 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Reg_Page@6a41eaa2]" name="endreport" is-config="true" duration-ms="231" started-at="2017-06-26T16:39:49Z" finished-at="2017-06-26T16:39:49Z">
+        <test-method status="PASS" signature="SwitchingBack()[pri:5, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="SwitchingBack" duration-ms="208" started-at="2017-06-29T20:19:51Z" description="Swtiching Back to reg page" finished-at="2017-06-29T20:19:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endreport -->
+        </test-method> <!-- SwitchingBack -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:51Z" finished-at="2017-06-29T20:19:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.SwitchingBack()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@4883b407]" name="getResult" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:52Z" finished-at="2017-06-29T20:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SwitchingBack status=SUCCESS method=Reg_Page.SwitchingBack()[pri:5, instance:DemoQa.DemoQA.Reg_Page@4883b407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.SwitchingBack()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- DemoQa.DemoQA.Reg_Page -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="DemoQa.DemoQA.Interactions_drag">
+        <test-method status="PASS" signature="swtchingtoclass()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19]" name="swtchingtoclass" is-config="true" duration-ms="1669" started-at="2017-06-29T20:19:52Z" finished-at="2017-06-29T20:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swtchingtoclass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:53Z" finished-at="2017-06-29T20:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.dragelement()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19]" name="dragelement" duration-ms="258" started-at="2017-06-29T20:19:53Z" description="Defaul Drag option" finished-at="2017-06-29T20:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragelement -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19]" name="getResult" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:53Z" finished-at="2017-06-29T20:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragelement status=SUCCESS method=Interactions_drag.dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.dragelement()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="swtchingback()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@7d9d1a19]" name="swtchingback" is-config="true" duration-ms="0" started-at="2017-06-29T20:19:53Z" finished-at="2017-06-29T20:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swtchingback -->
+      </class> <!-- DemoQa.DemoQA.Interactions_drag -->
+    </test> <!-- Home Page -->
+  </suite> <!-- DEMOQA by Lasantha -->
 </testng-results>

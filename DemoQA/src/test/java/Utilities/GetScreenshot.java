@@ -13,8 +13,8 @@ public class GetScreenshot {
     {
         TakesScreenshot ts = (TakesScreenshot)driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
-        //String dest = System.getProperty("E:\\Lasantha\\Auto\\Jenkins\\Test\\img"+screenShotName+".png");
-        String dest = System.getProperty("user.dir") +"\\ErrorScreenshots\\"+screenShotName+".png";
+       String dest ="E:\\Lasantha\\Auto\\WS\\DemoQA\\src\\test\\Resources"+screenShotName+".png";
+       // String dest = System.getProperty("user.dir") +"\\ErrorScreenshots\\"+screenShotName+".png";
         File destination = new File(dest);
         FileUtils.copyFile(source, destination);        
                      

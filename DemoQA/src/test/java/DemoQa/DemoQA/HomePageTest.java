@@ -3,66 +3,75 @@ package DemoQa.DemoQA;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 
 import Utilities.Cons;
 import Utilities.GetScreenshot;
 import pageObjects.HomePage;
-import pageObjects.RegistrationPage;
 
-
-public class Reg_Page {
-
-	  	
+public class HomePageTest {
 	
+	@BeforeTest (description = "Starting the Browser and Reports")
+	public void setupdriver()
+	{		  
+		System.setProperty("webdriver.chrome.driver", Cons.chrome_path);   
+		HomePage.driver = new ChromeDriver();
+		HomePage.driver.get(Cons.url);
+		
+		HomePage.extent = new ExtentReports(Cons.Report_path);
+		HomePage.test = HomePage.extent.startTest("Home Page");
+		HomePage.extent
+					.addSystemInfo("Project","DemoQA Test")
+					.addSystemInfo("Environment","Web")
+					.addSystemInfo("Test Designee","Lasantha");
+		
+		
+	
+		
+	}
+	
+
 	@BeforeMethod
 	public void beforeMethod(Method method) {
 	    Test annotation_test = method.getAnnotation(Test.class);	    
 	    String temp_message =("Starting " + annotation_test.description());
 	    HomePage.test.assignCategory("Smoke Test");
-	    HomePage.test = HomePage.extent.startTest(annotation_test.description());
+	 
 	    HomePage.test.log(LogStatus.INFO, temp_message);
 	    
 	}
 	
-
-	
-	
-	@Test(description = "Customer Registration",priority=4)
-	public void Registration()
+	@Test (description = "Switching Tabs 1 to 5",priority=0)
+	public void switch_tabs()
 	{
-		
-		
-		RegistrationPage reg = new RegistrationPage();
-		reg.SetNames();
-		reg.setMstatus();
-		reg.setHobby();
-		reg.setCountry();
-		reg.setDateOfBirth();
-		reg.setPhone();
-		reg.setUserName();
-		reg.setEmail();
-		reg.setprofPic();
-		reg.setDescription();
-		reg.setPasswords();
-		reg.submitbutton();
+		HomePage hm = new HomePage();
+		hm.switch_tabs();
 		
 		
 	}
 	
-	@Test(description = "Swtiching Back to reg page", priority=5)
-	public void SwitchingBack()
+	@Test (description = "Clicking the Registration Page",priority=1)
+	public void Homepg()
 	{
 		
-		RegistrationPage reg = new RegistrationPage();
-		reg.switchingBack();
-		
+		HomePage hm = new HomePage();
+		hm.click_reg_page();
 		
 	}
-
+	
+	
+	
+	
+	
 	
 	@AfterMethod
 	public void getResult(ITestResult result,Method method) throws IOException 
@@ -84,15 +93,17 @@ public class Reg_Page {
 		HomePage.extent.endTest(HomePage.test);
 	}
 	
-	
-	
+
 	 @AfterTest
 	    public void endreport()
 	    {
-		 System.out.println("INSIDE Reg_Page.java");
-		/* HomePage.driver.close();*/
-		 /*HomePage.extent.flush();*/
-		// HomePage.extent.close();
+		 
+		  
+		 System.out.println("INSIDE HomePageTest.java");
+		 //HomePage.extent.flush();
+		
+		 
+		 //HomePage.extent.close();
 	        
 	    }
 	
