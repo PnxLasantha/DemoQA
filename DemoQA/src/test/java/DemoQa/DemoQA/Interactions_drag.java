@@ -46,14 +46,21 @@ public class Interactions_drag {
 		
 	}
 	
-	@Test(description = "Drag-Drop",priority=7)
-	public void drag_drop()
+	@Test(description = "Dragable",priority=7)
+	public void drag()
 	{
 
 		interaction drag = new interaction();
 		drag.drag_drop();
-		HomePage hm = new HomePage();
-		hm.goBack();
+		
+		
+	}
+	
+	@Test(description = "Drag and drop",priority=8)
+	public void drag_drop()
+	{
+		interaction drop = new interaction();
+		drop.drop();
 		
 	}
 	
@@ -81,7 +88,8 @@ public class Interactions_drag {
 	public void swtchingback()
 	{
 		
-		
+	//	HomePage hm = new HomePage();
+		//hm.goBack();
 	}
 	
 	@AfterTest

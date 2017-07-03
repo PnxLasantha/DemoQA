@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class interaction {
 	
-	WebDriver driver; 
+	private WebDriver driver; 
 	
 	public interaction()
 	{
@@ -21,7 +21,8 @@ public class interaction {
 	
 	
 	By default_option = By.id("draggable");
-	By darg_drop = By.id("ui-id-5");
+	By dragable = By.id("ui-id-5");
+	By dropmenu = By.id("menu-item-141");
 	
 	
 	
@@ -40,7 +41,7 @@ public class interaction {
 	
 	public void drag_drop()
 	{
-		driver.findElement(darg_drop).click();
+		driver.findElement(dragable).click();
 		WebElement drag_1= driver.findElement(By.xpath("//*[@id='sortablebox']/li[1]"));
 		new Actions(driver).dragAndDropBy(drag_1, 0, 100).build() .perform();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -49,6 +50,17 @@ public class interaction {
 		
 		
 	}
+	
+	public void drop()
+	{
+		driver.findElement(dropmenu).click();
+		WebElement drag_from = driver.findElement(By.id("draggableview"));
+		WebElement drag_to = driver.findElement(By.id("droppableview"));
+		new Actions(driver).dragAndDrop(drag_from, drag_to).perform();
+		
+	}
+	
+	
 	
 	
 	

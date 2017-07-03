@@ -4,11 +4,13 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -21,11 +23,33 @@ import pageObjects.HomePage;
 public class HomePageTest {
 	
 	@BeforeTest (description = "Starting the Browser and Reports")
-	public void setupdriver()
+	@Parameters("browser")
+	public void setupdriver(String browser)
 	{		  
-		System.setProperty("webdriver.chrome.driver", Cons.chrome_path);   
-		HomePage.driver = new ChromeDriver();
-		HomePage.driver.get(Cons.url);
+		//System.setProperty("webdriver.chrome.driver", Cons.chrome_path);   
+		//HomePage.driver = new ChromeDriver();
+		//Cons setupbrowser = new Cons();
+		//setupbrowser.setbrowser(browser);
+		
+		if(browser.equalsIgnoreCase("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver", Cons.chrome_path);   
+			HomePage.driver = new ChromeDriver();
+			HomePage.driver.get(Cons.url);
+			
+		}
+		else if(browser.equalsIgnoreCase("firefox"))
+		{
+			System.setProperty("webdriver.gecko.driver", "E:/Lasantha/Auto/Drivers/Gecko/geckodriver.exe");
+			HomePage.driver = new FirefoxDriver();
+			HomePage.driver.get(Cons.url);
+		}
+		
+		
+		
+		
+		
+		
 		
 		HomePage.extent = new ExtentReports(Cons.Report_path);
 		HomePage.test = HomePage.extent.startTest("Home Page");

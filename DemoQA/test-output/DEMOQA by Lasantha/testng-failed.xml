@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [DEMOQA by Lasantha]">
-  <test name="Home Page(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DEMOQA by Lasantha]" parallel="tests">
+  <test name="DemoQa - Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="DemoQa.DemoQA.HomePageTest">
+      <class name="DemoQa.DemoQA.Reg_Page">
         <methods>
-          <include name="switch_tabs"/>
+          <include name="Registration"/>
+          <include name="endreport"/>
           <include name="beforeMethod"/>
           <include name="getResult"/>
-          <include name="Homepg"/>
-          <include name="endreport"/>
-          <include name="setupdriver"/>
         </methods>
-      </class> <!-- DemoQa.DemoQA.HomePageTest -->
+      </class> <!-- DemoQa.DemoQA.Reg_Page -->
       <class name="DemoQa.DemoQA.Interactions_drag">
         <methods>
+          <include name="drag"/>
           <include name="dragelement"/>
           <include name="endreport"/>
           <include name="beforeMethod"/>
@@ -24,15 +24,31 @@
           <include name="swtchingback"/>
         </methods>
       </class> <!-- DemoQa.DemoQA.Interactions_drag -->
+    </classes>
+  </test> <!-- DemoQa - Chrome(failed) -->
+  <test name="DemoQa - Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
       <class name="DemoQa.DemoQA.Reg_Page">
         <methods>
-          <include name="SwitchingBack"/>
           <include name="Registration"/>
           <include name="endreport"/>
           <include name="beforeMethod"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- DemoQa.DemoQA.Reg_Page -->
+      <class name="DemoQa.DemoQA.Interactions_drag">
+        <methods>
+          <include name="drag"/>
+          <include name="dragelement"/>
+          <include name="endreport"/>
+          <include name="beforeMethod"/>
+          <include name="drag_drop"/>
+          <include name="swtchingtoclass"/>
+          <include name="getResult"/>
+          <include name="swtchingback"/>
+        </methods>
+      </class> <!-- DemoQa.DemoQA.Interactions_drag -->
     </classes>
-  </test> <!-- Home Page(failed) -->
+  </test> <!-- DemoQa - Firefox(failed) -->
 </suite> <!-- Failed suite [DEMOQA by Lasantha] -->

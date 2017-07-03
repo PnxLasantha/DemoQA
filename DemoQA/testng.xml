@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="DEMOQA by Lasantha">
-  <test name="Home Page">
+<suite name="DEMOQA by Lasantha" parallel="tests" >
+  <test name="DemoQa - Chrome" >
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="DemoQa.DemoQA.HomePageTest"/>
       <class name="DemoQa.DemoQA.Reg_Page"/>
@@ -9,6 +10,14 @@
     </classes>
   </test> <!-- Test -->
   
+    <test name="DemoQa - Firefox" >
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="DemoQa.DemoQA.HomePageTest"/>
+      <class name="DemoQa.DemoQA.Reg_Page"/>
+      <class name="DemoQa.DemoQA.Interactions_drag"/>
+    </classes>
+  </test>
   
   
  
