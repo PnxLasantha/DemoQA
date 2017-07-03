@@ -18,6 +18,7 @@
           <include name="dragelement"/>
           <include name="endreport"/>
           <include name="beforeMethod"/>
+          <include name="drag_drop"/>
           <include name="swtchingtoclass"/>
           <include name="getResult"/>
           <include name="swtchingback"/>
@@ -26,7 +27,7 @@
       <class name="DemoQa.DemoQA.Reg_Page">
         <methods>
           <include name="SwitchingBack"/>
-          <include name="Registration_1"/>
+          <include name="Registration"/>
           <include name="endreport"/>
           <include name="beforeMethod"/>
           <include name="getResult"/>
