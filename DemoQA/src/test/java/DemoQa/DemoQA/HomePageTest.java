@@ -26,8 +26,8 @@ public class HomePageTest {
 	@Parameters("browser")
 	public void setupdriver(String browser)
 	{		  
-		//System.setProperty("webdriver.chrome.driver", Cons.chrome_path);   
-		//HomePage.driver = new ChromeDriver();
+		////System.setProperty("webdriver.chrome.driver", Cons.chrome_path);   
+		///HomePage.driver = new ChromeDriver();
 		//Cons setupbrowser = new Cons();
 		//setupbrowser.setbrowser(browser);
 		
@@ -45,7 +45,7 @@ public class HomePageTest {
 			HomePage.driver.get(Cons.url);
 		}
 		
-		
+		//HomePage.driver.get(Cons.url);
 		
 		
 		
@@ -74,10 +74,13 @@ public class HomePageTest {
 	    
 	}
 	
-	@Test (description = "Switching Tabs 1 to 5",priority=0)
+	@Test (description = "Switching Tabs 1 to 5",priority=0,sequential = true)
 	public void switch_tabs()
 	{
+		System.out.println("inside swich");
+		
 		HomePage hm = new HomePage();
+		hm.waittime();
 		hm.switch_tabs();
 		
 		
@@ -86,10 +89,11 @@ public class HomePageTest {
 	@Test (description = "Clicking the Registration Page",priority=1)
 	public void Homepg()
 	{
-		
+		System.out.println("inside homepage");
 		HomePage hm = new HomePage();
 		hm.click_reg_page();
-		
+		hm.waittime();
+		System.out.println("Click reg page");
 	}
 	
 	

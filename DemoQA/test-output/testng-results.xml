@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="8" ignored="0" total="12" passed="4">
+<testng-results skipped="6" failed="8" ignored="0" total="14" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="DEMOQA by Lasantha" duration-ms="13659" started-at="2017-07-03T11:07:37Z" finished-at="2017-07-03T11:07:51Z">
+  <suite name="DEMOQA by Lasantha" duration-ms="21835" started-at="2017-07-03T14:54:28Z" finished-at="2017-07-03T14:54:50Z">
     <groups>
     </groups>
-    <test name="DemoQa - Chrome" duration-ms="13659" started-at="2017-07-03T11:07:37Z" finished-at="2017-07-03T11:07:51Z">
+    <test name="DemoQa - Chrome" duration-ms="21046" started-at="2017-07-03T14:54:28Z" finished-at="2017-07-03T14:54:49Z">
       <class name="DemoQa.DemoQA.HomePageTest">
-        <test-method status="PASS" signature="setupdriver(java.lang.String)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="setupdriver" is-config="true" duration-ms="8007" started-at="2017-07-03T16:37:37Z" description="Starting the Browser and Reports" finished-at="2017-07-03T16:37:45Z">
+        <test-method status="PASS" signature="setupdriver(java.lang.String)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="setupdriver" is-config="true" duration-ms="10904" started-at="2017-07-03T20:24:28Z" description="Starting the Browser and Reports" finished-at="2017-07-03T20:24:39Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupdriver -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-07-03T16:37:45Z" finished-at="2017-07-03T16:37:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:39Z" finished-at="2017-07-03T20:24:39Z">
           <params>
             <param index="0">
               <value>
@@ -29,103 +29,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="switch_tabs" duration-ms="3933" started-at="2017-07-03T16:37:45Z" description="Switching Tabs 1 to 5" finished-at="2017-07-03T16:37:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switch_tabs -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="getResult" is-config="true" duration-ms="2" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=switch_tabs status=SUCCESS method=HomePageTest.switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="Homepg" duration-ms="48" started-at="2017-07-03T16:37:49Z" description="Clicking the Registration Page" finished-at="2017-07-03T16:37:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Homepg -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Homepg status=SUCCESS method=HomePageTest.Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@1794d431] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="endreport" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="endreport" is-config="true" duration-ms="38" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="endreport" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-      </class> <!-- DemoQa.DemoQA.HomePageTest -->
-      <class name="DemoQa.DemoQA.Reg_Page">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Reg_Page.Registration()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="Registration()[pri:4, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="Registration" duration-ms="44" started-at="2017-07-03T16:37:49Z" description="Customer Registration" finished-at="2017-07-03T16:37:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="switch_tabs" duration-ms="17" started-at="2017-07-03T20:24:39Z" description="Switching Tabs 1 to 5" finished-at="2017-07-03T20:24:39Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: #name_3_firstname
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=name_3_firstname}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #name_3_firstname
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=name_3_firstname}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -136,12 +56,9 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.RegistrationPage.SetNames(RegistrationPage.java:63)
-	at DemoQa.DemoQA.Reg_Page.Registration(Reg_Page.java:40)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.HomePageTest.switch_tabs(HomePageTest.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -164,11 +81,191 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_tabs -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="getResult" is-config="true" duration-ms="4771" started-at="2017-07-03T20:24:39Z" finished-at="2017-07-03T20:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switch_tabs status=FAILURE method=HomePageTest.switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="Homepg" duration-ms="2129" started-at="2017-07-03T20:24:44Z" description="Clicking the Registration Page" finished-at="2017-07-03T20:24:46Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.HomePageTest.Homepg(HomePageTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepg -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:44Z" finished-at="2017-07-03T20:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="getResult" is-config="true" duration-ms="76" started-at="2017-07-03T20:24:46Z" finished-at="2017-07-03T20:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Homepg status=FAILURE method=HomePageTest.Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.HomePageTest@1794d431]" name="endreport" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="endreport" is-config="true" duration-ms="294" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="endreport" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- DemoQa.DemoQA.HomePageTest -->
+      <class name="DemoQa.DemoQA.Reg_Page">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:46Z" finished-at="2017-07-03T20:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.Registration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Registration()[pri:4, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="Registration" duration-ms="5" started-at="2017-07-03T20:24:46Z" description="Customer Registration" finished-at="2017-07-03T20:24:46Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Reg_Page.Registration(Reg_Page.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="getResult" is-config="true" duration-ms="323" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="getResult" is-config="true" duration-ms="773" started-at="2017-07-03T20:24:46Z" finished-at="2017-07-03T20:24:47Z">
           <params>
             <param index="0">
               <value>
@@ -184,44 +281,168 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="switch_Bak()[pri:5, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="switch_Bak" duration-ms="6" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Reg_Page.switch_Bak(Reg_Page.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_Bak -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.switch_Bak()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@42e26948]" name="getResult" is-config="true" duration-ms="113" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switch_Bak status=FAILURE method=Reg_Page.switch_Bak()[pri:5, instance:DemoQa.DemoQA.Reg_Page@42e26948] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.switch_Bak()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- DemoQa.DemoQA.Reg_Page -->
       <class name="DemoQa.DemoQA.Interactions_drag">
-        <test-method status="PASS" signature="swtchingtoclass()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="swtchingtoclass" is-config="true" duration-ms="99" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
+        <test-method status="FAIL" signature="swtchingtoclass()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="swtchingtoclass" is-config="true" duration-ms="1916" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:49Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swtchingtoclass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.dragelement()]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="dragelement" duration-ms="124" started-at="2017-07-03T16:37:50Z" description="Defaul Drag option" finished-at="2017-07-03T16:37:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="dragelement" duration-ms="0" started-at="2017-07-03T20:24:49Z" description="Defaul Drag option" finished-at="2017-07-03T20:24:49Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: #draggable
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggable}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #draggable
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggable}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -232,22 +453,19 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.interaction.default_functionality(interaction.java:32)
-	at DemoQa.DemoQA.Interactions_drag.dragelement(Interactions_drag.java:45)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -260,47 +478,31 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragelement -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="getResult" is-config="true" duration-ms="167" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dragelement status=FAILURE method=Interactions_drag.dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@57baeedf] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.dragelement()]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="drag()[pri:7, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="drag" duration-ms="184" started-at="2017-07-03T16:37:50Z" description="Dragable" finished-at="2017-07-03T16:37:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="drag()[pri:7, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="drag" duration-ms="0" started-at="2017-07-03T20:24:49Z" description="Dragable" finished-at="2017-07-03T20:24:49Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: //*[@id='sortablebox']/li[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=xpath, value=//*[@id='sortablebox']/li[1]}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='sortablebox']/li[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=xpath, value=//*[@id='sortablebox']/li[1]}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -311,22 +513,19 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.interaction.drag_drop(interaction.java:45)
-	at DemoQa.DemoQA.Interactions_drag.drag(Interactions_drag.java:54)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -339,69 +538,27 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drag -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="getResult" is-config="true" duration-ms="163" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=drag status=FAILURE method=Interactions_drag.drag()[pri:7, instance:DemoQa.DemoQA.Interactions_drag@57baeedf] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag_drop()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="drag_drop()[pri:8, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="drag_drop" duration-ms="164" started-at="2017-07-03T16:37:51Z" description="Drag and drop" finished-at="2017-07-03T16:37:51Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="drag_drop()[pri:8, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="drag_drop" duration-ms="1" started-at="2017-07-03T20:24:49Z" description="Drag and drop" finished-at="2017-07-03T20:24:49Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: #draggableview
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggableview}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #draggableview
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggableview}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -412,22 +569,19 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.interaction.drop(interaction.java:57)
-	at DemoQa.DemoQA.Interactions_drag.drag_drop(Interactions_drag.java:63)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -440,35 +594,23 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drag_drop -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="getResult" is-config="true" duration-ms="333" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=drag_drop status=FAILURE method=Interactions_drag.drag_drop()[pri:8, instance:DemoQa.DemoQA.Interactions_drag@57baeedf] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag_drop()]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="swtchingback()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="swtchingback" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="swtchingback()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@57baeedf]" name="swtchingback" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swtchingback -->
       </class> <!-- DemoQa.DemoQA.Interactions_drag -->
     </test> <!-- DemoQa - Chrome -->
-    <test name="DemoQa - Firefox" duration-ms="13658" started-at="2017-07-03T11:07:37Z" finished-at="2017-07-03T11:07:51Z">
+    <test name="DemoQa - Firefox" duration-ms="21835" started-at="2017-07-03T14:54:28Z" finished-at="2017-07-03T14:54:50Z">
       <class name="DemoQa.DemoQA.HomePageTest">
-        <test-method status="PASS" signature="setupdriver(java.lang.String)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="setupdriver" is-config="true" duration-ms="11848" started-at="2017-07-03T16:37:37Z" description="Starting the Browser and Reports" finished-at="2017-07-03T16:37:49Z">
+        <test-method status="PASS" signature="setupdriver(java.lang.String)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="setupdriver" is-config="true" duration-ms="15454" started-at="2017-07-03T20:24:28Z" description="Starting the Browser and Reports" finished-at="2017-07-03T20:24:44Z">
           <params>
             <param index="0">
               <value>
@@ -479,114 +621,23 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupdriver -->
-        <test-method status="PASS" signature="switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="switch_tabs" duration-ms="111" started-at="2017-07-03T16:37:49Z" description="Switching Tabs 1 to 5" finished-at="2017-07-03T16:37:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switch_tabs -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=switch_tabs status=SUCCESS method=HomePageTest.switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="Homepg" duration-ms="67" started-at="2017-07-03T16:37:49Z" description="Clicking the Registration Page" finished-at="2017-07-03T16:37:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Homepg -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Homepg status=SUCCESS method=HomePageTest.Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@2f686d1f] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="endreport" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="endreport" is-config="true" duration-ms="336" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="endreport" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-      </class> <!-- DemoQa.DemoQA.HomePageTest -->
-      <class name="DemoQa.DemoQA.Reg_Page">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:49Z" finished-at="2017-07-03T16:37:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Reg_Page.Registration()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="Registration()[pri:4, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="Registration" duration-ms="17" started-at="2017-07-03T16:37:49Z" description="Customer Registration" finished-at="2017-07-03T16:37:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="switch_tabs" duration-ms="10" started-at="2017-07-03T20:24:44Z" description="Switching Tabs 1 to 5" finished-at="2017-07-03T20:24:44Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: #name_3_firstname
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=name_3_firstname}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #name_3_firstname
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=name_3_firstname}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -597,12 +648,9 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.RegistrationPage.SetNames(RegistrationPage.java:63)
-	at DemoQa.DemoQA.Reg_Page.Registration(Reg_Page.java:40)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.HomePageTest.switch_tabs(HomePageTest.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -625,11 +673,202 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_tabs -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:44Z" finished-at="2017-07-03T20:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="getResult" is-config="true" duration-ms="392" started-at="2017-07-03T20:24:44Z" finished-at="2017-07-03T20:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switch_tabs status=FAILURE method=HomePageTest.switch_tabs()[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.switch_tabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="Homepg" duration-ms="2722" started-at="2017-07-03T20:24:44Z" description="Clicking the Registration Page" finished-at="2017-07-03T20:24:47Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.HomePageTest.Homepg(HomePageTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepg -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:44Z" finished-at="2017-07-03T20:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="getResult" is-config="true" duration-ms="166" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Homepg status=FAILURE method=HomePageTest.Homepg()[pri:1, instance:DemoQa.DemoQA.HomePageTest@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.HomePageTest.Homepg()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.HomePageTest@2f686d1f]" name="endreport" is-config="true" duration-ms="1" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="endreport" is-config="true" duration-ms="1" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="endreport" is-config="true" duration-ms="1" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- DemoQa.DemoQA.HomePageTest -->
+      <class name="DemoQa.DemoQA.Reg_Page">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.Registration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Registration()[pri:4, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="Registration" duration-ms="7" started-at="2017-07-03T20:24:47Z" description="Customer Registration" finished-at="2017-07-03T20:24:47Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Reg_Page.Registration(Reg_Page.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="getResult" is-config="true" duration-ms="206" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="getResult" is-config="true" duration-ms="120" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
           <params>
             <param index="0">
               <value>
@@ -645,33 +884,168 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.switch_Bak()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="switch_Bak()[pri:5, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="switch_Bak" duration-ms="5" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:47Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Reg_Page.switch_Bak(Reg_Page.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switch_Bak -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Reg_Page@3fee9989]" name="getResult" is-config="true" duration-ms="2120" started-at="2017-07-03T20:24:47Z" finished-at="2017-07-03T20:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switch_Bak status=FAILURE method=Reg_Page.switch_Bak()[pri:5, instance:DemoQa.DemoQA.Reg_Page@3fee9989] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void DemoQa.DemoQA.Reg_Page.switch_Bak()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
       </class> <!-- DemoQa.DemoQA.Reg_Page -->
       <class name="DemoQa.DemoQA.Interactions_drag">
-        <test-method status="PASS" signature="swtchingtoclass()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="swtchingtoclass" is-config="true" duration-ms="142" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
+        <test-method status="FAIL" signature="swtchingtoclass()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="swtchingtoclass" is-config="true" duration-ms="806" started-at="2017-07-03T20:24:49Z" finished-at="2017-07-03T20:24:50Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swtchingtoclass -->
-        <test-method status="FAIL" signature="dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="dragelement" duration-ms="36" started-at="2017-07-03T16:37:50Z" description="Defaul Drag option" finished-at="2017-07-03T16:37:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="dragelement" duration-ms="0" started-at="2017-07-03T20:24:50Z" description="Defaul Drag option" finished-at="2017-07-03T20:24:50Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: #draggable
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggable}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #draggable
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggable}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -682,22 +1056,19 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.interaction.default_functionality(interaction.java:32)
-	at DemoQa.DemoQA.Interactions_drag.dragelement(Interactions_drag.java:45)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -710,69 +1081,31 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragelement -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.dragelement()]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="getResult" is-config="true" duration-ms="187" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dragelement status=FAILURE method=Interactions_drag.dragelement()[pri:6, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.dragelement()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="drag()[pri:7, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="drag" duration-ms="174" started-at="2017-07-03T16:37:50Z" description="Dragable" finished-at="2017-07-03T16:37:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="drag()[pri:7, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="drag" duration-ms="0" started-at="2017-07-03T20:24:50Z" description="Dragable" finished-at="2017-07-03T20:24:50Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: //*[@id='sortablebox']/li[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=xpath, value=//*[@id='sortablebox']/li[1]}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='sortablebox']/li[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=xpath, value=//*[@id='sortablebox']/li[1]}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -783,22 +1116,19 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.interaction.drag_drop(interaction.java:45)
-	at DemoQa.DemoQA.Interactions_drag.drag(Interactions_drag.java:54)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -811,47 +1141,31 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drag -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="getResult" is-config="true" duration-ms="174" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=drag status=FAILURE method=Interactions_drag.drag()[pri:7, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag()]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="drag_drop()[pri:8, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="drag_drop" duration-ms="163" started-at="2017-07-03T16:37:50Z" description="Drag and drop" finished-at="2017-07-03T16:37:51Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="drag_drop()[pri:8, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="drag_drop" duration-ms="0" started-at="2017-07-03T20:24:50Z" description="Drag and drop" finished-at="2017-07-03T20:24:50Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[Unable to locate element: #draggableview
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggableview}]]>
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #draggableview
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Missing 'type' parameter
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: '3010-009', ip: '192.168.1.186', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161123182536, version=50.0.1, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=7048.0, browserVersion=50.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
-*** Element info: {Using=id, value=draggableview}
+Capabilities [{moz:profile=C:\Users\cool\AppData\Local\Temp\rust_mozprofile.m66Cqb50U6mC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.2, moz:processID=6788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: f661de5d-354b-4a3c-a7f0-2a2967af8317
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -862,22 +1176,19 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at pageObjects.interaction.drop(interaction.java:57)
-	at DemoQa.DemoQA.Interactions_drag.drag_drop(Interactions_drag.java:63)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:868)
+	at pageObjects.HomePage.waittime(HomePage.java:67)
+	at DemoQa.DemoQA.Interactions_drag.swtchingtoclass(Interactions_drag.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -890,38 +1201,11 @@ Session ID: 1ac591f8-2795-4b35-9301-b202878ebea7
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drag_drop -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:50Z" finished-at="2017-07-03T16:37:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag_drop()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="getResult" is-config="true" duration-ms="176" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=drag_drop status=FAILURE method=Interactions_drag.drag_drop()[pri:8, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void DemoQa.DemoQA.Interactions_drag.drag_drop()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="swtchingback()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="swtchingback" is-config="true" duration-ms="0" started-at="2017-07-03T16:37:51Z" finished-at="2017-07-03T16:37:51Z">
+        <test-method status="SKIP" signature="swtchingback()[pri:0, instance:DemoQa.DemoQA.Interactions_drag@73ad2d6]" name="swtchingback" is-config="true" duration-ms="0" started-at="2017-07-03T20:24:50Z" finished-at="2017-07-03T20:24:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swtchingback -->

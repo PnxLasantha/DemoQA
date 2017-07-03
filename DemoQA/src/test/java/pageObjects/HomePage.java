@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -57,5 +59,11 @@ public class HomePage {
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;  
 		js.executeScript("window.history.go(-1)");
+	}
+	
+	public void waittime()
+	{
+		
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	}
 }

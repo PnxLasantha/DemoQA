@@ -24,6 +24,8 @@ public class Interactions_drag {
 	public void swtchingtoclass()
 	{
 		HomePage.driver.findElement(By.id("menu-item-140")).click();
+		HomePage hm =  new HomePage();
+		hm.waittime();
 		
 	}
 
@@ -40,7 +42,9 @@ public class Interactions_drag {
 	
 	@Test(description = "Defaul Drag option",priority=6)
 	public void dragelement()
-	{
+	{		
+		HomePage hm =  new HomePage();
+		hm.waittime();
 		interaction drag = new interaction();
 		drag.default_functionality();
 		
@@ -49,7 +53,8 @@ public class Interactions_drag {
 	@Test(description = "Dragable",priority=7)
 	public void drag()
 	{
-
+		HomePage hm =  new HomePage();
+		hm.waittime();
 		interaction drag = new interaction();
 		drag.drag_drop();
 		

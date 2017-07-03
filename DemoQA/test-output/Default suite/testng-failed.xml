@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="DemoQa.DemoQA.Reg_Page">
+      <class name="DemoQa.DemoQA.HomePageTest">
         <methods>
-          <include name="Registration_1"/>
-          <include name="Registration_2"/>
-          <include name="endreport"/>
+          <include name="switch_tabs"/>
           <include name="beforeMethod"/>
           <include name="getResult"/>
+          <include name="Homepg"/>
+          <include name="endreport"/>
+          <include name="setupdriver"/>
         </methods>
-      </class> <!-- DemoQa.DemoQA.Reg_Page -->
+      </class> <!-- DemoQa.DemoQA.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

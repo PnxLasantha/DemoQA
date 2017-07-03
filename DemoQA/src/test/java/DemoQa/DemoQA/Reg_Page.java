@@ -35,7 +35,8 @@ public class Reg_Page {
 	public void Registration()
 	{
 		
-		
+		HomePage hm = new HomePage();
+		hm.waittime();
 		RegistrationPage reg = new RegistrationPage();
 		reg.SetNames();
 		reg.setMstatus();
@@ -49,11 +50,17 @@ public class Reg_Page {
 		reg.setDescription();
 		reg.setPasswords();
 		reg.submitbutton();
+		hm.waittime();
+		
+	}
+	@Test(priority=5)
+	public void switch_Bak()
+	{
 		
 		HomePage hm = new HomePage();
+		hm.waittime();
 		hm.goBack();
 	}
-	
 	
 
 	

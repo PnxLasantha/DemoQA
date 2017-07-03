@@ -19,7 +19,7 @@ public class Cons {
 	public static final String url = "http://demoqa.com";
 	
 	
-	public void setbrowser(String browser)
+	public void waitTime(String browser)
 	{
 		if(browser.equalsIgnoreCase("chrome"))
 		{

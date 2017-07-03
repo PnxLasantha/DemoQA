@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="DEMOQA by Lasantha" parallel="tests" >
-  <test name="DemoQa - Chrome" >
+<suite name="DEMOQA by Lasantha" thread-count = "2" parallel="tests" verbose="1" >
+  
+  <test name="DemoQa - Chrome" parallel="tests" thread-count="2" >
+  
+  
+  
   <parameter name="browser" value="chrome" />
     <classes>
       <class name="DemoQa.DemoQA.HomePageTest"/>
@@ -10,8 +14,11 @@
     </classes>
   </test> <!-- Test -->
   
-    <test name="DemoQa - Firefox" >
-  <parameter name="browser" value="firefox" />
+    <test name="DemoQa - Firefox" parallel="tests" thread-count="2" >
+    
+    
+   
+  <parameter name="browser" value="firefox"  />
     <classes>
       <class name="DemoQa.DemoQA.HomePageTest"/>
       <class name="DemoQa.DemoQA.Reg_Page"/>
